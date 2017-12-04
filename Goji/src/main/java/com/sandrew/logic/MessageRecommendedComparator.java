@@ -15,8 +15,7 @@ public class MessageRecommendedComparator implements Comparator<Message> {
     /**
      * Compares messages based on the number of recommendations.
      *
-     * @return -1 if arg0 has less recommended messages than arg1, 0 if they have the same number of recommendations, 1
-     *         otherwise.
+     * @return -1 if arg0 has less recommender than arg1, 0 if they have the same number of recommender, 1 otherwise.
      */
     @Override
     public int compare(final Message arg0, final Message arg1) {
